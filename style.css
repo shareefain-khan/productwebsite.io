@@ -22,7 +22,7 @@
 .nav{
     /* background-color: rgba(255, 190, 190, 0.267); */
     position: sticky;
-    top: 2%;
+    top: 0%;
     color: rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +31,7 @@
     border-radius: 10px;
     align-items: center;
     z-index: 999;
+    background-color: white;
     
 }
 .ul-list{
@@ -108,9 +109,12 @@
         display: grid;
         grid-template-columns: 790px 800px;
         grid-template-rows: 600px ;
-        box-shadow: 1px -10px 10px black;
+       
         justify-content: space-around;
 
+    }
+    .hero-section:hover{
+        box-shadow: 1px -10px 10px black;
     }
     .box1{
         /* border: 2px solid red; */
