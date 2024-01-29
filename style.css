@@ -485,4 +485,51 @@ span{
   
     .box-3{
         border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
     }
+    .p1{
+        font-size: 25px;
+        color: orange;
+    }
+    .p2{
+        font-size: 40px;
+    }
+    .p3{
+        font-size: 15px;
+        /* width: 200px; */
+    }
+    .p4{
+        font-size: 15px;
+        color: gray;
+        margin-left: 10px;
+       
+    }
+    .ol-list{
+        margin-left: 10px;
+    }
+    .li-list-2{
+        font-size: 20px;
+        position: relative;
+        margin-left: 10px;
+        
+        
+   }
+   .li-list-2::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    
+    display: inline-block;
+   width: 40px;
+   height: 40px;
+   left: -25px;
+   top: -5px;
+   z-index: -1;
+   }
+   
+
+ 
