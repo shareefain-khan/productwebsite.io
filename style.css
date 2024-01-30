@@ -48,6 +48,17 @@ span{
     letter-spacing: 1px;
     line-height: 200px;
 } */
+.Partner{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    font-size: 25px;
+    text-shadow: 1px 1px  5px  orange;
+    
+}
 .container{
     height: 150vh;
     
@@ -59,7 +70,7 @@ span{
 .container-box{
     height: 900px;
     padding: 0px 40px;
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
     /* position: relative; */
    
     
@@ -157,7 +168,7 @@ span{
     .hero-section{
       
         position: relative;
-        top: 15%;
+        top: 10%;
         /* border: 2px solid black; */
         display: grid;
         grid-template-columns: 790px 800px;
@@ -337,27 +348,30 @@ span{
     
     .hero-section-2{
         position: relative;
-        top: 2%;
-        border: 2px solid black;
+        top: 0%;
+        /* border: 2px solid black; */
         display: grid;
-        
         grid-template-columns: 500px 600px;
-        grid-template-rows: 600px ;
-       
+        grid-template-rows: 700px;
+        padding: 50px;
         justify-content: space-around;
+        z-index: 1;
     }
     .box-2{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         position: relative;
+      
        
     }
     .img{
         height: 100%;
         width: 100%;
+        border-radius: 30px;
     }
     .image{
         height: 100%;
         width: 100%;
+        border-radius: 30px;
     }
     .box-2-2{
         height: 180px;
@@ -416,7 +430,33 @@ span{
         border-radius: 10px;
         outline: none;
         border: none;
+        transition: all 0.5s;
+        cursor: pointer;
     }
+    .btn span{
+        cursor: pointer;
+        /* display: inline-block; */
+        position: relative;
+        transition: 0.5s;
+    }
+    .btn span:after{
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -25px;
+        transition: 0.5s;
+        
+        
+    }
+    .btn:hover span {
+        padding-right: 25px;
+      }
+      .btn:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+  
 
     .box-2-3{
         height: 180px;
@@ -484,52 +524,71 @@ span{
     }
   
     .box-3{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 15px;
+        height: 500px;
+        margin-top: 5%;
     }
     .p1{
         font-size: 25px;
         color: orange;
+        
     }
     .p2{
         font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .p3{
         font-size: 15px;
         /* width: 200px; */
+        color: gray;
     }
     .p4{
-        font-size: 15px;
+        font-size: 13px;
         color: gray;
-        margin-left: 10px;
+        margin-left: 40px;
        
     }
     .ol-list{
         margin-left: 10px;
+        line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+       
     }
     .li-list-2{
         font-size: 20px;
         position: relative;
-        margin-left: 10px;
-        
-        
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-left: 20px;
+        list-style-type: none;
+        counter-increment: list;
    }
-   .li-list-2::before{
-    content: "";
-    background-color: red;
+  
+   /* .ol-list .li-list-2 {
+    counter-increment: list;
+    list-style-type: none;
+  } */
+  .ol-list .li-list-2:before {
+    color: #ffffff;
+    content: counter(list) "";
+    left: -30px;
+    top: -0px;
     position: absolute;
+    /* text-align: right; */
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    text-align: center;
+    border-radius: 50%;
     
-    display: inline-block;
-   width: 40px;
-   height: 40px;
-   left: -25px;
-   top: -5px;
-   z-index: -1;
-   }
+  }
+  
    
 
  
