@@ -741,7 +741,7 @@
         color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         word-spacing: 5px;
-        font-size: 25px;
+        font-size: 20px;
         text-shadow: 1px 1px  5px  orange;
         
     }
@@ -853,7 +853,7 @@
         
         .hero-section{
             width: 500px;
-            border: 2px solid rgb(255, 0, 0);
+            /* border: 2px solid rgb(255, 0, 0); */
             display: block;
             
 
@@ -1029,9 +1029,9 @@
         
         .hero-section-2{
             position: relative;
-            top: 45%;
+            top: 60%;
             left: 10%;
-            border: 2px solid black;
+            /* border: 2px solid black; */
             display: inline-block;
          
             width: 400px;
@@ -1057,12 +1057,12 @@
             border-radius: 30px;
         }
         .box-2-2{
-            height: 180px;
-            width: 180px;
+            height: 150px;
+            width: 150px;
             border: 2px solid rgb(240, 92, 141);
             position: absolute;
             top: 5%;
-            left: -25%;
+            left: -15%;
             padding: 10px;
             background-color: white;
             border-radius: 15px;
@@ -1142,12 +1142,12 @@
       
     
         .box-2-3{
-            height: 180px;
-            width: 180px;
+            height: 150px;
+            width: 150px;
             border: 2px solid rgb(240, 92, 141);
             position: absolute;
             bottom: 5%;
-            right: -25%;
+            right: -15%;
             padding: 10px;
             border-radius: 15px;
             background-color: white;
@@ -1180,7 +1180,7 @@
             position: absolute;
             bottom: 10px;
             height: 15px;
-            width: 180px;
+            width: 150px;
             border-radius: 0px 30px 0px 30px;
             overflow: hidden;
             
@@ -1273,7 +1273,8 @@
       }
       .hero-section-3{
             position: relative;
-            top: 50%;
+            top: 60%;
+            left: 10%;
             /* left: 10%; */
             /* border: 2px solid rgb(255, 0, 0); */
             display: inline-block;
@@ -1281,17 +1282,18 @@
             background-color: rgb(58, 58, 58);
             color: white;
             place-items: center;
-            
+            width: 500px;
            
             
       
         }
         .hero-1{
             /* border: 1px solid blue; */
-            height: 200px;
+            height: 100px;
             position: relative;
-            top: 20%;
-            padding: 10%;
+            top: 65px;
+            height: 200px;
+            /* padding: 10%; */
         }
         .hero-1-text{
             font-family: Arial, Helvetica, sans-serif;
@@ -1334,11 +1336,11 @@
             top: 20%;
             /* border: 1px solid blue; */
             display: grid;
-            grid-template-columns: 250px 250px 250px  ;
-            grid-template-rows: 40px 40px 40px 40px 40px;
-            column-gap: 10px;
-            row-gap: 10px;
-            padding: 5%;
+            grid-template-columns: 150px 150px 150px  ;
+            grid-template-rows: 40px 40px 40px 40px 40px 40px;
+            /* column-gap: 10px;
+            row-gap: 10px; */
+            /* padding: 5%; */
             
             
         }
@@ -1346,10 +1348,10 @@
             clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
             background: rgb(252, 244, 244);
             position: absolute;
-            top: -30%;
+            top: -10%;
             left: 15%;
-            width: 500px;
-            height: 300px;
+            width: 400px;
+            height: 200px;
             /* border: 2px solid red; */
             /* text-align: nter; */
             border-radius: 50px;
@@ -1414,6 +1416,7 @@
             align-items: flex-end;
             /* border: 1px solid red; */
             color: rgb(192, 192, 192);
+            font-size: 10px;
         }
         .boxes{
             position: relative;
@@ -1439,10 +1442,7 @@
             font-family: Arial, Helvetica, sans-serif;
             color: white;
         }
-        .hero-3{
-            border: 1px solid blue;
-            width: 1300px;
-        }
+      
         .footer{
             position: absolute;
             bottom: 0%;
@@ -1450,7 +1450,7 @@
             color: rgb(255, 255, 255);
             background-color: black;
             text-align: center;
-            font-size: 15px;
+            font-size: 10px;
             height: 30px;
             display: flex;
             align-items: center;
