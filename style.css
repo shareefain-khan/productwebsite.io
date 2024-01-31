@@ -118,6 +118,9 @@
        /* transform: transl;
     /* } */
 }
+.fa-bars{
+    display: none;
+}
     
     
     .hero-section{
