@@ -603,7 +603,7 @@
     display: block;
     
 }
-.fa-bars:hover+.ul-list{
+.fa-bars:hover + .ul-list{
     color: rgb(5, 5, 5);
     display: block;
     
